@@ -12,16 +12,16 @@ repos:
       - id: end-of-file-fixer
       - id: trailing-whitespace
   - repo: 'https://github.com/Lucas-C/pre-commit-hooks-lxml'
-    rev: v1.1.0
+    rev: v1.1.1
     hooks:
       - id: forbid-html-img-without-alt-text
   - repo: https://github.com/oxipng/oxipng
-    rev: v10.1.0
+    rev: v10.1.1
     hooks:
       - id: oxipng
         args: ["-o", "max", "--strip", "safe", "--alpha"]
   - repo: https://github.com/kytta/mirrors-svgo
-    rev: 'v4.0.1'
+    rev: 'v4.0.2'
     hooks:
       - id: svgo
         args: [ "--final-newline", "--multipass" ]
